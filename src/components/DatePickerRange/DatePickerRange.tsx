@@ -306,7 +306,7 @@ const DatePickerRange: React.FC<DatePickerRangeProps> = ({
           <div
             id="date"
             className={`bu-flex bu-h-[40px] bu-w-[260px] bu-cursor-pointer bu-items-center bu-justify-between bu-rounded-[8px] bu-border bu-p-[8px] ${DatePickerBg(
-              { theme }
+              { theme, hover: theme }
             )} ${dateClassName}`}>
             {mode === "simple" ? (
               date?.from ? (
